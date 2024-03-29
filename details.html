@@ -25,15 +25,17 @@
     <link rel="stylesheet" href="./css/common.css" />
     <!-- Page Custom CSS File -->
     <link rel="stylesheet" href="./css/details.css" />
+
     <title>Details Page</title>
+    <script src="functions.js"></script>
   </head>
   <body>
     <!-- Loader -->
-    <div class="loader">
+    <!--<div class="loader">
       <div class="spinner">
         <i class="fa-regular fa-circle-notch fa-spin icon"></i>
       </div>
-    </div>
+    </div>-->
     <!-- Scroll Top -->
     <button
       type="button"
@@ -54,6 +56,7 @@
           type="button"
           aria-label="Theme Switcher Button"
           class="theme-toggle flex flex-jc-sb flex-ai-c"
+          onclick="toggleTheme()"
         >
           <i class="fa-regular fa-moon theme-icon"></i>
           <span class="theme-text">Dark Mode</span>
@@ -71,10 +74,9 @@
     </div>
     <main class="main">
       <div class="container">
-        <section class="country-details"></section>
+        <section class= "country-details">
+        </section>
       </div>
     </main>
-    <script src="./js/common.js"></script>
-    <script src="./js/details.js"></script>
   </body>
 </html>

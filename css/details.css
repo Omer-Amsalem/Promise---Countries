@@ -43,13 +43,11 @@ body {
 
 .country-flag {
   flex-shrink: 0;
-  width: 450px;
   max-width: 450px;
-  max-height: 350px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  max-height: 450px;
+  box-shadow: 30px 4px 20px rgba(5, 2, 2, 0.11);
   overflow: hidden;
   margin-right: 70px;
-  border-radius: 6px;
 }
 
 @media (max-width: 39.9375em) {
@@ -67,11 +65,12 @@ body {
 
 .country-info {
   padding: 40px 0;
+  margin-bottom: 45px;
 }
 
 .country-info h1 {
   color: #111517;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .country-info strong {
@@ -80,12 +79,12 @@ body {
 }
 
 .country-info strong.warning {
-  color: #d21034 !important;
+  color: #b41f3b !important;
 }
 
 .country-info li {
   text-transform: capitalize;
-  color: #2b3945;
+  color: #000000;
 }
 
 .country-info li button {
